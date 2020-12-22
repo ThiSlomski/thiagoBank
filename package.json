@@ -1,0 +1,28 @@
+{
+  "name": "thiagobank",
+  "version": "1.0.0",
+  "description": "Exercício proposto pela alura no curso de TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiSlomski/thiagoBank.git"
+  },
+  "keywords": [
+    "Node.js",
+    "/",
+    "TypeScript"
+  ],
+  "author": "Thiago Slomski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiSlomski/thiagoBank/issues"
+  },
+  "homepage": "https://github.com/ThiSlomski/thiagoBank#readme",
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  }
+}
