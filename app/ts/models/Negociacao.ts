@@ -1,9 +1,9 @@
 class Negociacao {
 
-    // no tipeScript deve se definir no topo
-    _data;
-    _quantidade;
-    _valor;
+    // no tipeScript deve se definir no topo, antes do constructor
+   private _data;
+   private _quantidade;
+   private _valor;
 
     constructor(data,quantidade,valor) {
 
