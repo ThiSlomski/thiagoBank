@@ -20,6 +20,7 @@ class NegociacaoController {
             parseInt(this._inputQuantidade.value),
             parseFloat(this._inputValor.value));
 
+
         console.log(negociacao);
     }
 
