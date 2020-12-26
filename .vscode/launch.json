@@ -5,7 +5,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/ProjetosThiago/AluraCourses/ThiagoBank/thiagoBank/app/index.html",
+            "url": "file:///C:/Slomski/thiagoBank/app/index.html", // Configure de acordo com seu ambiente
             "webRoot": "${workspaceFolder}"
         }
     ]
