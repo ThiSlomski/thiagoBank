@@ -1,11 +1,11 @@
-class MensagemView {
-    constructor(seletor) {
-        this._elemento = document.querySelector(seletor);
-    }
-    update(model) {
-        this._elemento.innerHTML = this.template(model);
+class MensagemView extends View {
+    removeAlert() {
+        this._elemento.innerHTML = this.templateEmpty();
     }
     template(model) {
-        return `<p class="alert alert-info">${model}</p>`;
+        return `<p id="alertaGerado" class="alert alert-info">${model}</p>`;
+    }
+    templateEmpty() {
+        return ``;
     }
 }
