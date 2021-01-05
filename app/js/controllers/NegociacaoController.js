@@ -15,7 +15,7 @@ class NegociacaoController {
         this._negociacoesView.update(this._negociacoes);
         this._mensagemView.update('Negociação Adicionada com sucesso!!!');
         setTimeout(() => {
-            this._mensagemView.removeAlert();
+            this._mensagemView.clearElement();
         }, 5000);
     }
 }
